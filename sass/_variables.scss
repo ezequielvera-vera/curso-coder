@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+} /* 1rem=10px */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+//utilidades
+p {
+  font-size: 1.5rem;
+}
+.p-margin {
+  margin: top 1px;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+}
+// Animación personalizada (vibrar)
+@keyframes vibrar {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+// Archivo: _mixins.scss
