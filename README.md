@@ -1,4 +1,5 @@
-﻿# repo-coder
+﻿buen dia profe :
+ la animacion se encuentra en index , body , cabañas
 
 Una página web estática diseñada para promover destino turísticos con un diseño atractivo, moderno y adaptable. Desarrollada con HTML5 y SASS.
 
