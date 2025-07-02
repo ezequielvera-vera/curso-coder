@@ -165,7 +165,11 @@ html {
 }
 
 p {
+  font-family: Arial, sans-serif;
   font-size: 1.5rem;
+  line-height: 1.5;
+  color: red;
+  margin-bottom: 1em;
 }
 
 .p-margin {
