@@ -76,6 +76,11 @@
     row-gap: 10px;
   }
 }
+.servicios_sobren-nosotros {
+  margin-bottom: 23px;
+  text-align: center;
+}
+
 .servicios {
   display: flex;
   flex-direction: column;
@@ -149,6 +154,10 @@
 .redes {
   display: flex;
   justify-content: flex-end;
+}
+.redes .redes_contenedor {
+  display: flex;
+  gap: 35px;
 }
 .redes .img-redes {
   height: 70px;

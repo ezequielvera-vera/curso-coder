@@ -2,6 +2,10 @@
 .redes {
   display: flex;
   justify-content: flex-end;
+  .redes_contenedor {
+    display: flex;
+    gap: 35px;
+  }
   .img-redes {
     height: 70px;
   }
